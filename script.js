@@ -12,6 +12,7 @@ function login() {
     for (let usuario of usuarios) {
         if (usuario.login == login && usuario.senha == senha) {
             mensagem = "parabéns, você logou!";
+            window.location.href="bemvindo.html"
             break;
         }
     }
